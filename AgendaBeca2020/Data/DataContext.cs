@@ -15,6 +15,6 @@ namespace AgendaBeca2020.Data
             
         }
 
-        public DbSet<Contact> 
+        public DbSet<Contact> Contacts { get; set; }
     }
 }
