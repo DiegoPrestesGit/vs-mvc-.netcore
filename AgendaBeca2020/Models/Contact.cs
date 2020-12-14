@@ -11,5 +11,7 @@ namespace AgendaBeca2020.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
+        public int EventId { get; set; }
+        public Event Event { get;set; }
     }
 }
